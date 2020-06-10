@@ -25,12 +25,6 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /.jsx?$/,
-        include: path.resolve(__dirname, "./example"),
-        loader: "babel-loader",
-        exclude: /node_modules/,
-      },
-      {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
@@ -71,7 +65,7 @@ module.exports = {
     CleanPlugin,
     new webpack.DefinePlugin({
       "process.env": {
-        NODE_ENV: isDev ? '"development"' : '"production"',
+        NODE_ENV: '"development"',
       },
     }),
     new MiniCssExtractPlugin({
