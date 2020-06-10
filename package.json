@@ -1,6 +1,6 @@
 {
   "name": "@bj-nsc/create-nsc-component",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "创建组件模板应用",
   "main": "lib/index.js",
   "author": "nsc-wuhan",
