@@ -1,7 +1,7 @@
 {
   "name": "{{{name}}}",
   "version": "1.0.0",
-  "description": "水平进度条",
+  "description": "{{{desc}}}",
   "main": "lib/index.js",
   "repository": "https://github.com/bj-north-star/nsc-base-component.git",
   "scripts": {

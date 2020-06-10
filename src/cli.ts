@@ -8,6 +8,7 @@ const args = yParser(process.argv.slice(2), {
     help: ["h"],
     target: ["t"],
     name: ["n"],
+    desc: ["d"],
   },
   boolean: ["version"],
 });
