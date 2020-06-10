@@ -6,7 +6,6 @@ export default class AppGenerator extends Generator {
     this.copyDirectory({
       context: {
         version: require("../../package").version,
-        conventionRoutes: this.args.conventionRoutes,
       },
       path: join(__dirname, "../../templates"),
       target: this.cwd,
