@@ -7,6 +7,7 @@ export default class AppGenerator extends Generator {
       context: {
         version: require("../../package").version,
         name: this.args.name,
+        desc: this.args.desc,
       },
       path: join(__dirname, "../../templates"),
       target: this.cwd,
