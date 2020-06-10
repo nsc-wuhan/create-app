@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "{{{name}}}",
   "version": "1.0.0",
   "description": "水平进度条",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "build": "webpack --config  ./webpack.prod.js"
   },
   "keywords": [
-    "@bj-nsc"
+    "{{{name}}}"
   ],
   "author": "nsc",
   "license": "MIT",
