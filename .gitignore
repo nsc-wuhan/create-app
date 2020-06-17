@@ -8,8 +8,8 @@ node_modules
 /package-lock.json
 
 # production
-/dist
-/lib
+dist
+lib
 
 # misc
 .DS_Store
